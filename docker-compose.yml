@@ -1,6 +1,6 @@
 services:
   api:
-    image: mhmdsami/feedback-api
+    image: aryakesarwani/feedback-api
     pull_policy: always
     environment:
       DATABASE_URL: postgres://postgres:postgres@db:5432/feedbackapi
