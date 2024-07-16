@@ -5,7 +5,7 @@ import { PORT } from "@/utils/config";
 export const app = new Elysia()
   .get("/", () => {
     return {
-      message: 'Welcome to the Feedback API!',
+      message: "Welcome to the Feedback API!",
     };
   })
   .get("/healthcheck", () => {
